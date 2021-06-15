@@ -12,8 +12,6 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer {
@@ -35,14 +33,15 @@
   align-items: center;
 }
 
-.title a {
+.link {
   color: #0070f3;
   text-decoration: none;
+  display: inline-block;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
+.link:hover,
+.link:focus,
+.link:active {
   text-decoration: underline;
 }
 
